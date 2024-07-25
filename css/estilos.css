@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table{
+    width: 80%;
+    border-collapse: collapse;
+    border: 3px solid #271216;
+}
+th{
+    color: white;
+    background-color: #df7e92;
+    color: #ffe3e9;
+}
+td{
+    padding: 10px;
+    text-align: center;
+    border: 3px solid #271216;
+}
+tr:nth-child(odd){ /*even*/
+    background-color: #f3a6b6;
+    color: #fff5f7;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.descripcion{
+    width: 40%;
+}
+h1{
+    text-align: center;
+    padding: 25px;
+}
